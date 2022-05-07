@@ -44,36 +44,44 @@ img {
 }
 .img-text{
   background-color: #fff;
+  margin-top: 5px;
   margin-bottom: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .tribute-info{
   padding: 40px;
-  margin-block-start: 1em;
+  /* margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 40px;
-  margin-inline-end: 40px;
+  margin-inline-end: 40px; */
   display: block;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  text-align: center;
+  margin: 0 auto 50px auto;
 }
 
 .headline{
 margin: 20px 0;
 text-align: center;
 font-size: 1.17em;
+
 }
 
 .timelap{
+  margin: 0 auto 50px auto;
   max-width: 550px;
-  text-align: center;
+  float: left;
   line-height: 1.6;
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
 }
+
 li{
   margin: 16px 0;
+}
+
+.frase{
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
 }
