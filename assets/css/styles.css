@@ -86,6 +86,13 @@ li{
 }
 
 .frase-container .cita{
-text-align: left;
+  max-width: 545px;
+  margin: 0 auto 5px auto;
+  text-align: left;
+}
+
+.ctext-container{
+  text-align: center;
+  padding: 40px;
 }
 
