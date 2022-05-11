@@ -50,22 +50,17 @@ img {
 }
 
 .tribute-info{
-  padding: 40px;
-  /* margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px; */
   display: block;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
-  margin: 0 auto 50px auto;
+  margin: 0 auto 10px auto;
 }
 
 .headline{
-margin: 20px 0;
+margin-top:60px;
+margin-bottom:60px;
 text-align: center;
 font-size: 1.17em;
-
 }
 
 .timelap{
@@ -79,14 +74,18 @@ li{
   margin: 16px 0;
 }
 
-.frase{
+.frase-container{
+  margin-bottom: 30px;
+  text-align: center;
   font-style: italic;
+}
+.frase-container .frase{
   max-width: 545px;
-  margin: 0 auto 50px auto;
+  margin: 0 auto 5px auto;
   text-align: left;
 }
 
-.cita{
-font-style: italic;
+.frase-container .cita{
 text-align: left;
 }
+
