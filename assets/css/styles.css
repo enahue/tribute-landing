@@ -36,12 +36,13 @@ body{
   margin-inline-start: 40px;
   margin-inline-end: 40px;
 }
-#img {
+#img-div #image {
   max-width: 100%;
   display: block;
   height: auto;
   margin: 0 auto;
 }
+
 .img-text{
   background-color: #fff;
   margin-top: 5px;
